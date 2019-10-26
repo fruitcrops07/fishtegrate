@@ -1,0 +1,14 @@
+{
+  "name": "fish-catch-validation-app",
+  "version": "1.0.0",
+  "description": "web-based app for validating fish catch report",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marx.macalalag@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
