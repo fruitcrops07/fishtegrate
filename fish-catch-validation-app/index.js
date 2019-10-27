@@ -15,8 +15,6 @@ app.use(function (req, res, next) {
 
 app.use(express.static(path.join(__dirname, '/build')));
 
-app.get
-
 app.get('/sync_catch_report', (req, res, next) => {
     let message = { message: 'sync successfully' }
     let catchReport = { ...req.query, datasource: 'FAME', isVerified: false };
